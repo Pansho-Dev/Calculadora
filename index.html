@@ -16,26 +16,27 @@
     <div class="contenedor">
 
         <div class="elementos">
-            <input type="text" readonly>
+            <input id="pantalla" type="text" readonly>
 
             <div class="botones">
 
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>/</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>*</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>-</button>
-                <button>0</button>
-                <button>.</button>
-                <button>+</button>
-                <button>=</button>
+                <input type="button" value='1' onclick="agregar('1')">
+                <input type="button" value='2' onclick="agregar('2')">
+                <input type="button" value='3' onclick="agregar('3')">
+                <input type="button" value='+' onclick="agregar('+')">
+                <input type="button" value='4' onclick="agregar('4')">
+                <input type="button" value='5' onclick="agregar('5')">
+                <input type="button" value='6' onclick="agregar('6')">
+                <input type="button" value='-' onclick="agregar('-')">
+                <input type="button" value='7' onclick="agregar('7')">
+                <input type="button" value='8' onclick="agregar('8')">
+                <input type="button" value='9' onclick="agregar('9')">
+                <input type="button" value='*' onclick="agregar('*')">
+                <input type="button" value='0' onclick="agregar('0')">
+                <input type="button" value='.' onclick="agregar('.')">
+                <input type="button" value='/' onclick="agregar('/')">
+                <input type="button" value='=' onclick="agregar('calcular')">
+                <input type="button" value='C' onclick="agregar('limpiar')">
 
             </div>
         </div>

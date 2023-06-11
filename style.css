@@ -11,7 +11,7 @@ body {
   position: absolute;
   background-color: #171738;
   width: 30rem;
-  height: 32rem;
+  height: 35rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -27,7 +27,7 @@ body {
 
 .elementos input {
   width: 90%;
-  height: 60px;
+  height: 70px;
   margin: 20px;
   border-radius: 10px;
   box-shadow: 5px 5px 0px #3423A6;
@@ -39,15 +39,15 @@ body {
   grid-gap: 10px;
   width: 90%;
   height: 200px;
-  margin: 40px auto;
+  margin: auto 5px;
   
 }
 
-.botones button {
+.botones input {
     width: 100%;
     height: 60px;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 9px;
     margin-bottom: 1px; 
     background-color: #fff;
     border: none;
@@ -55,8 +55,10 @@ body {
     box-shadow: 5px 5px 0px #3423A6;
 }
 
+.botones input:nth-child(17){
+    grid-column: 1/5;
+}
 
-input:focus,
-button:focus {
+input:focus{
   outline: none;
 }
